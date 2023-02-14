@@ -1,0 +1,12 @@
+var radius = prompt("wat is de radius");
+var diameter = radius * 2;
+var circumference = 2 * Math.PI * radius;
+var area = Math.PI * radius * radius;
+var sphereArea = 4 * Math.PI * radius * radius;
+var sphereVolume = (4 / 3) * Math.PI * radius * radius * radius;
+document.write("Radius = " + radius + "<br>");
+document.write("Diameter = " + diameter + "<br>");
+document.write("Circumference = " + circumference + "<br>");
+document.write("Area = " + area + "<br>");
+document.write("Sphere Area = " + sphereArea + "<br>");
+document.write("Sphere Volume = " + sphereVolume + "<br>");
